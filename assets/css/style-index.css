@@ -1,6 +1,6 @@
 html{
     margin=0;
-
+    position:relative;
 
 }
 
@@ -15,6 +15,7 @@ html{
     z-index: -1;
     margin-top:0%;
     margin-bottom:25px;
+    border-bottom:4px #cccccc;
 }
 h1{
     size: 50px;
@@ -36,13 +37,15 @@ h2{
 body{
     margin:0;
     padding:0;
+    width:1920px;
+    height:1080px;
+    
 }
 .boxed{
     background:white;
     width:960px;
-    height:375px;   
+    height: 375px;   
     display:block;
-    overflow: auto;
     position: relative;
     margin-left:25%;
     margin-right:25%;
@@ -53,12 +56,15 @@ body{
 
 p{
  position:absolute;
- 
+ width: 900px;
+ float:none;
+
  
 }
 
 img{
    position: absolute;
+   float: left;
    
     
     
@@ -77,5 +83,5 @@ footer{
     margin-bottom:0%;
     margin-top: 2%;
     border-top:8px solid #4aaaa5;
-    position: fixed;;
+    position: static;
 }
