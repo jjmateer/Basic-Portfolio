@@ -9,11 +9,11 @@ html{
 }
 .top-background{
     width:100%;
-    height:100px;
+    height:5%;
     background:#ffffff;
-    position:relative;
+    position:static;
     z-index: -1;
-    margin-top:0px;
+    margin-top:0%;
     margin-bottom:25px;
 }
 h1{
@@ -22,6 +22,7 @@ h1{
     width: 200px;
     height:60px;
     margin-left:25%;
+    margin-top:0%;
 
 }
 
@@ -43,7 +44,8 @@ body{
     display:block;
     overflow: auto;
     position: relative;
-    margin-left:60.855px;
+    margin-left:25%;
+    margin-right:25%;
     
 
     
@@ -57,20 +59,22 @@ p{
 
 img{
    position: absolute;
+   margin-left:25%;
     
     
 }
 
 .buttons{
-position: static;
-align-content:right;
-margin-left:75%;
-}
+    align-content:right;
+    margin-left:75%;
+    z-index: +1;
+    }
 
 footer{
     height:100px;
     width:100%;
     background-color:#666666;
-    margin-top:25px;
+    margin-bottom:0%;
+    margin-top: 25px;
     border-top:8px solid #4aaaa5;
 }
