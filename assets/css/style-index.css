@@ -6,7 +6,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 .top-background{
-    width:auto;
+    width:100%;
     height:100px;
     background:#ffffff;
     position: relative;
@@ -33,10 +33,9 @@ h1{
 h2{
     size:50px;
     color:#4aaaa5;
-    border-bottom:solid #cccccc;
+    border-bottom:solid 4px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position:Absolute;
-    float:left;
+
 
 
 }
@@ -53,26 +52,20 @@ body{
     position: relative;
     margin-left:25%;
     border:2px solid #dddddd;
-
-    
-
-    
+    padding:0;
 }
 
 p{
- position:absolute;
- width: 900px;
- text-align: right;
- float:right;
- padding-top:75px;
  font-size:30px;
-
+ display: inline;
  
 }
 
 img{
-   position: absolute;
-   float:left;   
+   float:left;
+   margin-top:5px;
+   
+
 }
 
 .buttons{
@@ -80,7 +73,7 @@ img{
     position: absolute;
     display:block;
     float:right;
-    margin-left:65%;
+    margin-left:57.5%;
     margin-top:2%;
     
 }
@@ -116,7 +109,7 @@ img{
 }
 footer{
     height:100px;
-    width:1920;
+    width:100%;
     background-color:#666666;
     bottom:0%;
     margin-top: 7%;
