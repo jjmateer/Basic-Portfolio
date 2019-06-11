@@ -1,12 +1,13 @@
 html{
+width:100%;
 max-width:1920px;
 height:auto;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .top-background{
     width:100%;
+    max-width: 960px;
     height:100px;
     background:#ffffff;
     position: relative;
@@ -14,7 +15,17 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom:4%;
     border-bottom:2px solid #cccccc;
     z-index:0;
+    margin-left:25%;
 
+}
+.top-background2{
+    margin-top:0;
+    background-color:white;
+    width:100%;
+    max-width:1920px;
+    height:100px;
+    z-index:-2;
+    position: absolute;
 }
 h1{
     size: 40px;
@@ -24,21 +35,22 @@ h1{
     float:left;
    z-index: 1;
     color:white;
-    margin-left:25%;
+    margin-left:0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align:center;
     border: 1px solid #cccccc;
+    position:absolute;
 }
 
 h2{
-    size:50px;
+    font-size: 40px;
     color:#4aaaa5;
     border-bottom:solid 4px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-
+    height:65px;
+    margin-bottom: 35px;
 }
+
 body{
     padding:0;
     width:auto;
@@ -53,6 +65,7 @@ body{
     margin-left:25%;
     border:2px solid #dddddd;
     padding:0;
+    margin-right:25%
 }
 
 p{
@@ -73,8 +86,9 @@ img{
     position: absolute;
     display:block;
     float:right;
-    margin-left:57.5%;
+    margin-left:63%;
     margin-top:2%;
+    padding-right:0;
     
 }
 
@@ -112,7 +126,7 @@ footer{
     width:100%;
     background-color:#666666;
     bottom:0%;
-    margin-top: 7%;
+    margin-top: 12%;
     border-top:8px solid #4aaaa5;
     position: static;
     padding:0;
