@@ -72,60 +72,62 @@ html{
     .hangman{
        position: absolute; 
        margin-left:15%;
+       margin-top:12.5%;
        background-color:#4aaaa5;
        border:0;
        font-size:25px;
        color:white;
        height:50px;
-       width:200px;
+       width:250px;
        z-index:+1;
        
     }
     .rpg-game{
         position:absolute;         
         margin-left:15%;
-        margin-top:25%;
+        margin-top:37.5%;
         background-color:#4aaaa5;
         border:0;
         font-size:25px;
         color:white;
         height:50px;
-        width:200px;
+        width:250px;
         z-index:+1;
     }
     .trivia-game{
         position:absolute; 
         margin-left:45%;
-        margin-top:25%;
+        margin-top:37.5%;
         background-color:#4aaaa5;
         border:0;
         font-size:25px;
         color:white;
         height:50px;
-        width:200px;
+        width:250px;
         z-index:+1;
     }
     .rutgers-info-widget{
         position:absolute;
         margin-left:45%;
+        margin-top:12.5%;
         background-color:#4aaaa5;
         border:0;
         font-size:25px;
         color:white;
         height:50px;
-        width:200px;
+        width:250px;
         z-index:+1;
     }
     .rock-paper-scissors{
         position:absolute; 
         margin-left:15%;
-        margin-top:50%;
+        margin-top:62.5%;
         background-color:#4aaaa5;
         border:0;
         font-size:25px;
         color:white;
         height:50px;
-        width:200px;
+        width:250px;
         z-index:+1;
 
     }
@@ -133,6 +135,7 @@ html{
     position:absolute;
     z-index:0;
     margin-left:15%;
+    width:200px;
     
    } 
    .picture2{
@@ -159,6 +162,21 @@ html{
     margin-top:50%
    }
    
+   .picture11{
+       width:250px
+   }
+   .picture22{
+    width:250px
+   }
+   .picture33{
+    width:250px
+   }
+   .picture44{
+    width:250px
+   }
+   .picture55{
+    width:250px
+   }
     .buttons{
         z-index: +1;
         position: absolute;

@@ -96,8 +96,7 @@ html{
         height:25%;
         position:absolute;
         margin-top:10%;
-        box-sizing: border-box;
-        resize:vertical;
+    
     }
     .buttons{
         z-index: +1;
