@@ -49,7 +49,11 @@ html{
         border-bottom:solid 4px #cccccc;
         font-family: Georgia, 'Times New Roman', Times, serif;
         height:65px;
+        width:920px;
         margin-bottom: 35px;
+        margin-left:20px;
+        margin-right:20px;
+
     }
     
     body{

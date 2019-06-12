@@ -48,7 +48,10 @@ html{
         border-bottom:solid 4px #cccccc;
         font-family: Georgia, 'Times New Roman', Times, serif;
         height:65px;
+        width:920px;
         margin-bottom: 35px;
+        margin-left:20px;
+        margin-right:20px;
     }
     body{
         padding:0;
@@ -69,10 +72,11 @@ html{
     form{
         height:480px;
         width:100%;
-        max-width:960px;
+        max-width:920px;
         position:relative;
         color:#777777;
         font-size:20px;
+        padding:20px;
         
     }
     .Name{
