@@ -61,60 +61,85 @@ html{
     .boxed{
         background:white;
         width:960px;
-        height:680px;   
-        position: static;
+        height:780px;   
+        position: relative;
         margin-left:25%;
         border:2px solid #dddddd;
         padding:0;
         margin-right:25%;
+        
     }
     .hangman{
-       position:absolute; 
+       position: absolute; 
+       margin-left:15%;
+       background-color:#4aaaa5;
+       border:0;
+       font-size:25px;
+       color:white;
+       height:50px;
+       width:200px
+       
     }
     .rpg-game{
         position:absolute;         
+        margin-left:15%;
+        margin-top:25%;
+        background-color:#4aaaa5;
+        border:0;
+        font-size:25px;
+        color:white;
+        height:50px;
+        width:200px
     }
     .trivia-game{
         position:absolute; 
+        margin-left:45%;
+        margin-top:25%;
+        background-color:#4aaaa5;
+        border:0;
+        font-size:25px;
+        color:white;
+        height:50px;
+        width:200px
     }
     .rutgers-info-widget{
-        position:absolute; 
+        position:absolute;
+        margin-left:45%;
+        background-color:#4aaaa5;
+        border:0;
+        font-size:25px;
+        color:white;
+        height:50px;
+        width:200px
     }
     .rock-paper-scissors{
         position:absolute; 
-    }
-    .container1{
-    height:320px;
-    width:240px;
-    position:relative;
-    z-index:0;
+        margin-left:15%;
+        margin-top:50%;
+        background-color:#4aaaa5;
+        border:0;
+        font-size:25px;
+        color:white;
+        height:50px;
+        width:200px
 
     }
-    .container2{
-        height:320px;
-        width:240px;
-        position:relative;
-        z-index:0;
-    }
-    .container3{
-        height:320px;
-        width:240px;
-        position:relative;
-        z-index:0;
-    }
-    .container4{
-        height:320px;
-        width:240px;
-        position:relative;
-        z-index:0;
-    }
-    .container5{
-        height:320px;
-        width:240px;
-        position:relative;
-        z-index:0;
-    }
+   .picture1{
 
+   } 
+   .picture2{
+
+   }
+   .picture3{
+
+   }
+   .picture4{
+
+   }
+   .picture5{
+
+   }
+   
     .buttons{
         z-index: +1;
         position: absolute;
@@ -165,4 +190,11 @@ html{
         border-top:8px solid #4aaaa5;
         position: static;
         padding:0;
+    }
+
+    img{
+        height:175px;
+        width:140px;
+        position:absolute;
+        z-index:-1
     }
